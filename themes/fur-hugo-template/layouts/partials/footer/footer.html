@@ -1,0 +1,50 @@
+<footer>
+	<div class="container">
+		<ul class="footer-columns">
+			<li class="about">
+				<div class="company-name">{{ readFile "themes/fur-hugo-template/static/logo.svg" | safeHTML }} <span>{{ .Site.Title }}</span></div>
+				<p class="editable">The intersection of Nature, Technology, and Art.</p>
+			</li>
+
+			<li class="footer-nav">
+				<h4>General</h4>
+				<ul>
+					{{ range .Site.Menus.main }}
+						{{ $new_window := .Params.new_window }}
+						<li><a {{ if $new_window }}target="_blank" rel="noopener"{{ end }} href="{{ .URL | relURL }}">
+							{{ .Name }}</a></li>
+					{{ end }}
+				</ul>
+			</li>
+
+			<li class="footer-nav">
+				<h4>Help</h4>
+
+				<ul>
+					{{ range .Site.Menus.footer }}
+						{{ $new_window := .Params.new_window }}
+						<li><a {{ if $new_window }}target="_blank" rel="noopener"{{ end }} href="{{ .URL | relURL }}">
+							{{ .Name }}</a></li>
+					{{ end }}
+				</ul>
+			</li>
+
+			<li>
+				<h4>Contact Us</h4>
+				<p>Need help with something? <a href="/contact/">Get in touch</a>.
+				<p class="email"><a href="mailto:{{ .Site.Params.author.email }}">{{ .Site.Params.author.email }}</a></p>
+				<p><a href="tel:{{ .Site.Params.author.phone }}">{{ .Site.Params.author.phone }}</a></p>
+
+				<div class="social-icons">
+					{{ range .Site.Data.socials }}
+						<a {{ if .new_window }}target="_blank" rel="noopener"{{ end }} href="{{ .link | relURL }}" {{ with lower .social_icon }}class="{{ . }}"{{ end }}>
+							{{ with .social_icon }}
+								{{ partial "footer/social-icon" . }}
+							{{ end }}
+						</a>
+					{{ end }}
+				</div>
+			</li>
+		</ul>
+	</div>
+</footer>
