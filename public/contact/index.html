@@ -434,7 +434,7 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
 				<div class="container ">
 					
 <div class="contact-box">
-	<form action= "/contact-success/" method="post" class="contact-form">
+	<form action="https://formspree.io/yourFormspreeID" method="post" class="contact-form">
 		<h3>Send us a message</h3>
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>
@@ -447,7 +447,9 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
 
 		<input type="hidden" name="_to" value="aaronpreinke@gmail.com">
 		<input type="text" name="_gotcha" style="display: none;">
-
+		
+		<input type="hidden" name="_next" value="/contact-success/">
+		
 		<input type="submit" value="Send Message">
 	</form>
 
@@ -461,7 +463,6 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
     window.mapData = "{\"address\":\"Waterloo, Iowa\",\"latitude\":42.493549,\"longitude\":-92.343677,\"zoom\":12}";
 
     function initMap() {
-	console.log('initMap is being called')
         var mapData = JSON.parse(window.mapData);
         var myMap = L.map('map').setView([mapData.latitude, mapData.longitude], mapData.zoom);
 
@@ -469,7 +470,6 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
             maxZoom: 19,
         }).addTo(myMap);
 
-        L.marker([mapData.latitude, mapData.longitude]).addTo(myMap);
     }
 
     initMap();
