@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature, Technology, Art on Senergy Group</title>
+    <link>https://www.senergygroup.org/</link>
+    <description>Recent content in Nature, Technology, Art on Senergy Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://www.senergygroup.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://www.senergygroup.org/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://www.senergygroup.org/post/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.: 26.00  ## Median :15.0 Median : 36.00  ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.senergygroup.org/products/_defaults/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/_defaults/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.senergygroup.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deer</title>
+      <link>https://www.senergygroup.org/products/deer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/deer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elephant</title>
+      <link>https://www.senergygroup.org/products/elephant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/elephant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giraffe</title>
+      <link>https://www.senergygroup.org/products/giraffe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/giraffe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hog</title>
+      <link>https://www.senergygroup.org/products/hog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/hog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lion</title>
+      <link>https://www.senergygroup.org/products/lion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/lion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not Found</title>
+      <link>https://www.senergygroup.org/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/404/</guid>
+      <description>This does not exist</description>
+    </item>
+    
+    <item>
+      <title>Our Story</title>
+      <link>https://www.senergygroup.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Returns</title>
+      <link>https://www.senergygroup.org/returns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/returns/</guid>
+      <description>In retail, a return is the process of a customer taking previously purchased merchandise back to the retailer, and in turn receiving a refund in the original form of payment, exchange for another item (identical or different), or a store credit.
+Many retailers will accept returns provided that the customer has a receipt as a proof of purchase, and that certain other conditions, which depend on the retailer&amp;rsquo;s policies, are met.</description>
+    </item>
+    
+    <item>
+      <title>Shipping / Delivery</title>
+      <link>https://www.senergygroup.org/shipping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/shipping/</guid>
+      <description>Please review the below information to find answers to any of your questions regarding our policies.
+Shipping Services Fur provides the below shipping services. Actual delivery time frames may vary due to weather, service delays, holidays etc.
+Free Standard shipping is available for apparel only on orders that have an after-discount subtotal value of $1.00 or more. Domestic shipping to Hawaii, Alaska, or Puerto Rico or any other location outside the Continental United States may take longer than expected due to their locations.</description>
+    </item>
+    
+    <item>
+      <title>Tiger</title>
+      <link>https://www.senergygroup.org/products/tiger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/tiger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We&#39;ll be in touch</title>
+      <link>https://www.senergygroup.org/contact-success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/contact-success/</guid>
+      <description>Success!Your message is sent. We&#39;ll be in touch soon.</description>
+    </item>
+    
+  </channel>
+</rss>

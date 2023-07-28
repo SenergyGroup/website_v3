@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Senergy Group</title>
+    <link>https://www.senergygroup.org/products/</link>
+    <description>Recent content in Products on Senergy Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.senergygroup.org/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.senergygroup.org/products/_defaults/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/_defaults/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deer</title>
+      <link>https://www.senergygroup.org/products/deer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/deer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elephant</title>
+      <link>https://www.senergygroup.org/products/elephant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/elephant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giraffe</title>
+      <link>https://www.senergygroup.org/products/giraffe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/giraffe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hog</title>
+      <link>https://www.senergygroup.org/products/hog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/hog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lion</title>
+      <link>https://www.senergygroup.org/products/lion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/lion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tiger</title>
+      <link>https://www.senergygroup.org/products/tiger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/tiger/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
