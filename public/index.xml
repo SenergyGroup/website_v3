@@ -28,6 +28,15 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
     </item>
     
     <item>
+      <title>Bamboo Forest</title>
+      <link>https://www.senergygroup.org/products/hog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/hog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://www.senergygroup.org/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,25 +46,16 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
     </item>
     
     <item>
-      <title>Deer</title>
-      <link>https://www.senergygroup.org/products/deer/</link>
+      <title>Flower Field</title>
+      <link>https://www.senergygroup.org/products/tiger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.senergygroup.org/products/deer/</guid>
+      <guid>https://www.senergygroup.org/products/tiger/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Elephant</title>
-      <link>https://www.senergygroup.org/products/elephant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.senergygroup.org/products/elephant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Giraffe</title>
+      <title>Midnight Desert</title>
       <link>https://www.senergygroup.org/products/giraffe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -64,20 +64,20 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
     </item>
     
     <item>
-      <title>Hog</title>
-      <link>https://www.senergygroup.org/products/hog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.senergygroup.org/products/hog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lion</title>
+      <title>Monarch Migration</title>
       <link>https://www.senergygroup.org/products/lion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.senergygroup.org/products/lion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mountain Sunrise</title>
+      <link>https://www.senergygroup.org/products/elephant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/products/elephant/</guid>
       <description></description>
     </item>
     
@@ -121,11 +121,11 @@ Free Standard shipping is available for apparel only on orders that have an afte
     </item>
     
     <item>
-      <title>Tiger</title>
-      <link>https://www.senergygroup.org/products/tiger/</link>
+      <title>Tibetan</title>
+      <link>https://www.senergygroup.org/products/deer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.senergygroup.org/products/tiger/</guid>
+      <guid>https://www.senergygroup.org/products/deer/</guid>
       <description></description>
     </item>
     

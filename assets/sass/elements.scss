@@ -3,16 +3,10 @@ html, body {
 	padding: 0;
 }
 
-@font-face {
-    font-family: 'AvenirNextLTPro-Regular';
-    src: url('https://github.com/SenergyGroup/website_v3/blob/master/public/AvenirNextLTPro-Regular.otf') format('opentype');
-}
 
 body {
-  font-family: 'AvenirNextLTPro-Regular';
-  src: url('https://github.com/SenergyGroup/website_v3/blob/master/public/AvenirNextLTPro-Regular.otf') format('opentype');
-	/*font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
-	-webkit-font-smoothing: antialiased;*/
+	font-family: 'Maven Pro', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 a {
@@ -29,27 +23,29 @@ img {
 }
 
 h1 strong, h2 strong {
-	font-weight: 700;
+	font-weight: 800;
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: 800;
 	font-size: 2.3em;
 	margin: 0;
 }
 
 h2 {
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 2.2em;
 	margin: 0;
 }
 
 h3 {
+  font-weight: 700;
 	font-size: 2rem;
 	margin: 20px 0 10px 0;
 }
 
 h4 {
+  font-weight: 700;
 	font-size: 1.4rem;
 
 	a {
@@ -58,6 +54,7 @@ h4 {
 }
 
 p, address, label, ul {
+  font-weight: 400;
 	font-size: 1.2rem;
 	color: #666;
 	margin-bottom: 20px;
