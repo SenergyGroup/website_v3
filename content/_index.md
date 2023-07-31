@@ -2,7 +2,7 @@
 _enabled_editors:
 - visual
 - content
-hero: Innovative Nature Wear
+hero: Summer Collection
 menu:
   main:
     name: Products

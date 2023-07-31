@@ -1,6 +1,6 @@
 ---
 description_markdown: |-
-  Todd the hedgehog may have a spiky exterior but his heart is made of gold. Unfortunately this weighs him down and makes it difficult for him to get around.
+  The Bamboo Forest t-shirt is an emblem of nature's quiet strength. Its reminds us of our commitment to the preservation of these peaceful groves.
 
 
   Slim Fit, 5oz 100% Cotton T-Shirt.

@@ -1,6 +1,6 @@
 ---
 description_markdown: |-
-  Gavin the tiger was brought up vegan. His favorite meal is chickpea salad with a lemon juice dressing.
+  The Flower Field t-shirt showcases the vibrant life of nature at its peak. This piece radiates energy, symbolizing our passion for safeguarding the rich tapestry of nature.
 
 
   Slim Fit, 5oz 100% Cotton T-Shirt.

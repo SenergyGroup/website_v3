@@ -1,6 +1,6 @@
 ---
 description_markdown: |-
-  Scar the lion is always true to himself. The Mufasa tragedy was a slight blemish in what was otherwise a saint-like life.
+  The Monarch Migration t-shirt pays tribute to the stunning spectacle of these beautiful creatures in flight. It speaks to the ever-changing beauty of nature and the delicate balance that maintains the dance of life.
 
 
   Slim Fit, 5oz 100% Cotton T-Shirt.

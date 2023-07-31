@@ -1,6 +1,6 @@
 ---
 description_markdown: |-
-  Midnight desert isn't particularly spiritual but he has a long neck which can help you in a pinch.
+  The Midnight Desert t-shirt paints a poetic picture of nature's stark contrasts. It embraces the serenity and mystery of the desert, encouraging us to appreciate the quieter moments of the natural world.
 
 
   Slim Fit, 5oz 100% Cotton T-Shirt.

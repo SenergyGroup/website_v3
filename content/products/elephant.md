@@ -1,6 +1,6 @@
 ---
 description_markdown: |-
-  Bumble the humble elephant is your shining star. He will always remember who you are and why you are here.
+  The Mountain Sunrise t-shirt encapsulates the awe-inspiring moment when dawn breaks over the peaks. It's a reminder of the planet's powerful beauty and the resilience that sustains it.
 
 
   Slim Fit, 5oz 100% Cotton T-Shirt.
