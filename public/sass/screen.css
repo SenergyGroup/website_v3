@@ -75,8 +75,7 @@ ul {
 .hero {
   color: #ffffff;
   text-align: center;
-  position: relative;
-  z-index: 99; }
+  position: relative; }
   .hero h2 {
     font-size: 3.2rem;
     line-height: 1.5;
@@ -116,6 +115,9 @@ ul {
   padding: 20px 0 0;
   background: #DDD url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12"><circle cx="6" cy="6" r="4" fill="#eee" /><circle cx="22" cy="6" r="4" fill="#eee" /><circle cx="38" cy="6" r="4" fill="#eee" /></svg>') 4px 4px no-repeat;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2); }
+
+#snipcart {
+  z-index: 9999 !important; }
 
 section {
   padding: 100px 0; }
@@ -263,6 +265,9 @@ blockquote .quote:after {
     .product-list .snipcart-add-item:hover {
       background: #f5f5f5;
       color: #000; }
+
+#snipcart {
+  z-index: 9999 !important; }
 
 .staff-image {
   margin: 25px auto 0 auto;

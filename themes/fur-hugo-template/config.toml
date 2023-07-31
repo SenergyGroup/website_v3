@@ -7,7 +7,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-snipcart_key = "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
+snipcart_key = "MmM3NzNiYjMtYzU3MS00ZmY3LTkzYTEtYzJiYWE5ZmI4YTlhNjM4MjY0MjAwNTExNTgwMjMy"
 
 [params.author]
 name = "Aaron"
