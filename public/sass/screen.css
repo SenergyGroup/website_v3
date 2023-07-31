@@ -12,11 +12,11 @@ html, body {
 
 @font-face {
   font-family: 'AvenirNextLTPro-Regular';
-  src: url("/website_v3/themes/fur-hugo-template/static/AvenirNextLTPro-Regular.otf") format("opentype"); }
+  src: url("https://github.com/SenergyGroup/website_v3/blob/master/public/AvenirNextLTPro-Regular.otf") format("opentype"); }
 
 body {
   font-family: 'AvenirNextLTPro-Regular';
-  src: url("/website_v3/themes/fur-hugo-template/static/AvenirNextLTPro-Regular.otf") format("opentype");
+  src: url("https://github.com/SenergyGroup/website_v3/blob/master/public/AvenirNextLTPro-Regular.otf") format("opentype");
   /*font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
 	-webkit-font-smoothing: antialiased;*/ }
 

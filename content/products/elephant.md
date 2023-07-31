@@ -5,21 +5,18 @@ description_markdown: |-
 
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type: null
-name: Bumble the Elephant
-price: "9.00"
+name: Mountain Sunrise
+price: "30.00"
 sizes:
 - Small
 - Medium
 - Large
 - XL
-sku: elephant
+sku: mtsunrise
 stock: 10
 styles:
-- color: '#dfd3c2'
-  image: /images/products/elephant/cream.jpg
-  name: Cream
-- color: '#67aa79'
-  image: /images/products/elephant/green.jpg
-  name: Green
-title: Elephant
+- color: '#555055'
+  image: /images/products/mtsunrise/grey.png
+  name: Gray
+title: Mountain Sunrise
 ---

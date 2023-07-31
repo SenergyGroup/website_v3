@@ -1,22 +1,22 @@
 ---
 description_markdown: |-
-  Gerald the giraffe isn't particularly spiritual but he has a long neck which can help you in a pinch.
+  Midnight desert isn't particularly spiritual but he has a long neck which can help you in a pinch.
 
 
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type: null
-name: Gerald the Giraffe
-price: "9.00"
+name: Midnight Desert
+price: "30.00"
 sizes:
 - Small
 - Medium
 - Large
 - XL
-sku: giraffe
+sku: desert
 stock: 10
 styles:
-- color: '#67aa79'
-  image: /images/products/giraffe/green.jpg
-  name: Green
-title: Giraffe
+- color: '#9d6b7c'
+  image: /images/products/desert/pink.png
+  name: Pink
+title: Midnight Desert
 ---

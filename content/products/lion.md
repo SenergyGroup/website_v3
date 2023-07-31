@@ -5,18 +5,18 @@ description_markdown: |-
 
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type: null
-name: Scar the Lion
-price: "9.00"
+name: Monarch Migration
+price: "30.00"
 sizes:
 - Small
 - Medium
 - Large
 - XL
-sku: lion
+sku: monarch
 stock: 10
 styles:
-- color: '#39589e'
-  image: /images/products/lion/blue.jpg
-  name: Blue
-title: Lion
+- color: '#a6a888'
+  image: /images/products/monarch/green.png
+  name: Green
+title: Monarch Migration
 ---
