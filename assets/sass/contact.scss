@@ -1,5 +1,6 @@
-.map {
-	height: 499px;
+#map {
+	height: 500px;
+	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 3px;
 }
@@ -32,6 +33,8 @@
 	}
 
 	.contact-details {
+	  position: relative;
+	  width: 100%;
 		font-size: .8em;
 		@media #{$desktop} {
 			order: 1;

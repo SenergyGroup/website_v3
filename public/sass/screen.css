@@ -307,8 +307,9 @@ blockquote .quote:after {
   margin: 0;
   color: #4CAF50; }
 
-.map {
-  height: 499px;
+#map {
+  height: 500px;
+  width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 3px; }
 
@@ -335,6 +336,8 @@ blockquote .quote:after {
         flex: 1;
         order: 2; } }
   .contact-box .contact-details {
+    position: relative;
+    width: 100%;
     font-size: .8em; }
     @media (min-width: 768px) {
       .contact-box .contact-details {

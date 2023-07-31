@@ -457,28 +457,8 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
 		<input type="submit" value="Send Message">
 	</form>
 
-	<div class="contact-details">
-		<div id="map" style="height: 500px;"></div>
-</div>
 
-
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-	
-<script type="text/javascript">
-    window.mapData = "{\"address\":\"Waterloo, Iowa\",\"latitude\":42.493549,\"longitude\":-92.343677,\"zoom\":12}";
-
-    function initMap() {
-        var mapData = JSON.parse(window.mapData);
-        var myMap = L.map('map').setView([mapData.latitude, mapData.longitude], mapData.zoom);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-        }).addTo(myMap);
-
-    }
-
-    initMap();
-</script>
+  </div>
 
 				</div>
 			</section>
