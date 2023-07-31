@@ -434,7 +434,7 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
 				<div class="container ">
 					
 <div class="contact-box">
-	<form action= "/contact-success/" method="post" class="contact-form">
+	<form action="https://formspree.io/f/xaygqygq" method="post" class="contact-form">
 		<h3>Send us a message</h3>
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>
@@ -447,42 +447,34 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
 
 		<input type="hidden" name="_to" value="aaronpreinke@gmail.com">
 		<input type="text" name="_gotcha" style="display: none;">
-
+		
+		<input type="hidden" name="_next" value="/contact-success/">
+		
 		<input type="submit" value="Send Message">
 	</form>
 
 	<div class="contact-details">
-		<div class="map" id="map"></div>
+		<div id="map" style="height: 500px;"></div>
 </div>
 
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	
 <script type="text/javascript">
-	window.mapData = "{\"address\":\"Waterloo, Iowa\",\"latitude\":42.493549,\"longitude\":-92.343677,\"zoom\":12.5}";
+    window.mapData = "{\"address\":\"Waterloo, Iowa\",\"latitude\":42.493549,\"longitude\":-92.343677,\"zoom\":12}";
 
-	function initMap() {
-		var myOptions = {
-			scrollwheel: false,
-			draggable: false,
-			panControl: false,
-			disableDefaultUI: true,
-			styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]}],
-			zoom: window.mapData.zoom,
-			maxZoom: window.mapData.zoom,
-			minZoom: window.mapData.zoom,
-			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		map = new google.maps.Map(document.getElementById("map"), myOptions);
-		marker = new google.maps.Marker({
-			map: map,
-			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-		});
+    function initMap() {
+        var mapData = JSON.parse(window.mapData);
+        var myMap = L.map('map').setView([mapData.latitude, mapData.longitude], mapData.zoom);
 
-		google.maps.event.addDomListener(window, "resize", function () {
-			map.setCenter(myOptions.center);
-		});
-	}
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(myMap);
+
+    }
+
+    initMap();
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap"></script>
 
 				</div>
 			</section>
