@@ -2,11 +2,11 @@
 _enabled_editors:
 - visual
 - content
-hero: Summer Collection
+hero: Support Our Action Groups
 menu:
   main:
     name: Products
     weight: 110
-subtitle: Transforming the beauty of nature into wearable art.
+subtitle: Each shirt you buy helps move us closer toward our goals.
 title: Nature, Technology, Art
 ---

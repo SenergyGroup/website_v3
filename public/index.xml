@@ -28,6 +28,15 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
     </item>
     
     <item>
+      <title>Action</title>
+      <link>https://www.senergygroup.org/action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/action/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bamboo Forest</title>
       <link>https://www.senergygroup.org/products/bamboo.forest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,6 +60,24 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.senergygroup.org/products/flower.field/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food Deserts</title>
+      <link>https://www.senergygroup.org/action-groups/food-desert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/action-groups/food-desert/</guid>
+      <description>The lovely monarch.</description>
+    </item>
+    
+    <item>
+      <title>Food Deserts</title>
+      <link>https://www.senergygroup.org/food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.senergygroup.org/food/</guid>
       <description></description>
     </item>
     
