@@ -7,6 +7,6 @@ hero: Action Groups
 menu:
   main:
     weight: 115
-title: Action
+title: Action Groups
 type: action
 ---

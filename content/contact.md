@@ -3,7 +3,7 @@ _enabled_editors:
 - visual
 - content
 description: Contact Us
-email: aaronpreinke@gmail.com
+email: contact.senergy.group@gmail.com
 hero: Get in touch
 map:
   address: Waterloo, Iowa
