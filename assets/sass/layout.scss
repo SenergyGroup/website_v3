@@ -1,3 +1,23 @@
+.nav-item {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 50px; /* This gives the pill shape */
+    background-color: #f8f9fa;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #2196F3;
+    color: #f8f9fa;
+}
+
+.nav-item i {
+    margin-right: 5px;
+}
+
 .container, .text-container {
 	margin: 0 auto;
 	position: relative;

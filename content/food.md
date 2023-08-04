@@ -5,5 +5,6 @@ _enabled_editors:
 description: Food Deserts
 hero: Food Deserts
 title: Food Deserts
+
 type: food.desert
 ---

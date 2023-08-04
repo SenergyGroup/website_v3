@@ -7,6 +7,6 @@ menu:
   main:
     name: Products
     weight: 110
-subtitle: Each shirt you buy helps our action groups achieve their goals.
+subtitle: Each shirt you buy helps our action groups move toward a better world.
 title: Nature, Technology, Art
 ---
