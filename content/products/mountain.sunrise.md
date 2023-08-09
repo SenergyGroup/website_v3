@@ -6,7 +6,7 @@ description_markdown: |-
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type: null
 name: Mountain Sunrise
-price: "30.00"
+price: "24.00"
 sizes:
 - Small
 - Medium
