@@ -448,6 +448,9 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
 			<section class="page">
 				<div class="container ">
 					
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
         <div class="container ">
             <table id="nav-table">
                 <tr>
@@ -475,7 +478,33 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
                   <p>Reducing the prevalence of food deserts in Black Hawk County by promoting access to healthy, affordable food options, and advocating for changes in food policies.</p></div>
                 <div class="content-item" id="data">
                   <h3>Data</h3>
-                  <p>Map of food deserts in Black Hawk County. (Leaflet) </p>
+
+                    <div class = "map-container">
+                      <div id="map"></div>
+                      <div id="marker-list">
+                        <h3 id="pantry-header">Pantries</h3>
+                        <div id="pantry-list"></div>
+                        <h3 id="meals-header">Community Meals</h3>
+                        <div id="meals-list"></div>
+                      </div>
+                    </div>
+                    <div id="filter" style="margin-top: 50px;">
+                      <label for="date">Select a Day:</label>
+                      <select id="day">
+                        <option value="">Select a day</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                      </select>
+                      
+                      <button onclick="filterMarkers()">Filter</button>
+                      <button onclick="clearFilter()" type="button">Clear</button>
+                    </div>
+                  
                   <p>Number of individuals served through food drives and meal programs. </p>
                   <p>Changes in local food policies that promote food equity.</p></div>
                 <div class="content-item" id="funding">
@@ -509,6 +538,12 @@ c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-1
         </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/js/main.js"></script>
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.6/turf.min.js"></script>
+    <script src="/map/locations.js"></script>
+    <script src="/map/main.js"></script>
+    <script src="/map/leaflet.signposts.js"></script>
 
 				</div>
 			</section>

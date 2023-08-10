@@ -76,6 +76,54 @@ ul {
 .nav-item i {
   margin-right: 5px; }
 
+.map-container {
+  overflow: auto;
+  /* This will clear the float */ }
+
+#map {
+  width: 75%;
+  height: 600px;
+  float: left; }
+
+#marker-list {
+  width: 25%;
+  height: 600px;
+  float: left;
+  overflow-y: auto;
+  /* Allow scrolling if the list is long */ }
+
+.card {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer; }
+
+.card:hover {
+  background-color: #f0f0f0; }
+
+.leaflet-popup-content {
+  line-height: 1.5; }
+
+.leaflet-marker-icon {
+  background-color: transparent !important;
+  border: none !important; }
+
+.leaflet-div-icon i {
+  font-size: 20px; }
+
+.pantry-icon {
+  color: green; }
+
+.meal-icon {
+  color: orange; }
+
+.hover-highlight {
+  color: yellow !important; }
+
+.selected-highlight {
+  color: red !important; }
+
 .container, .text-container {
   margin: 0 auto;
   position: relative;
