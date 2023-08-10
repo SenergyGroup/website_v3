@@ -80,17 +80,28 @@ ul {
   overflow: auto;
   /* This will clear the float */ }
 
+#map,
+#marker-list {
+  height: 600px;
+  float: left;
+}
+
 #map {
   width: 75%;
-  height: 600px;
-  float: left; }
+}
 
 #marker-list {
   width: 25%;
-  height: 600px;
-  float: left;
-  overflow-y: auto;
-  /* Allow scrolling if the list is long */ }
+  overflow-y: auto; /* Allow scrolling if the list is long */
+}
+
+@media (max-width: 1000px) {
+  #map,
+  #marker-list {
+    width: 100%;
+    float: none; /* Remove the float so the elements stack vertically */
+  }
+}
 
 .card {
   padding: 10px;
