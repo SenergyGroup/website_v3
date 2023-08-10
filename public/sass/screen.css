@@ -372,12 +372,13 @@ blockquote .quote:after {
   margin: 0;
   color: #4CAF50; }
 
+/*
 #map {
   height: 500px;
   width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 3px; }
-
+*/
 .contact-box {
   -webkit-flex-flow: wrap;
   -moz-flex-flow: wrap;
