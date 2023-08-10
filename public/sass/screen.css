@@ -98,6 +98,7 @@ ul {
 @media (max-width: 1000px) {
   #map,
   #marker-list {
+    height: 350px;
     width: 100%;
     float: none; /* Remove the float so the elements stack vertically */
   }
