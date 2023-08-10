@@ -86,7 +86,7 @@ ul {
   float: left; }
 
 #marker-list {
-  width: 25%;
+  width: 75%;
   height: 600px;
   float: left;
   overflow-y: auto;
