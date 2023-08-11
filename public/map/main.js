@@ -9,8 +9,8 @@ function createIcon(type) {
     var iconClass = type === 'Pantry' ? 'fa-utensils pantry-icon' : 'fa-hamburger meal-icon';
     return L.divIcon({
         className: 'leaflet-div-icon',
-        html: '<i class="fas ' + iconClass + '"></i>',
-        iconSize: [40, 40]
+        html: '<div style="background-color: white; border: 5px solid black; padding: 3px; display: inline-block;"><i class="fas ' + iconClass + '"></i></div>',
+        iconSize: [50, 50]
     });
 }
 
@@ -95,6 +95,25 @@ var allMarkers = [];
 // Creating a list for the map markers
 var pantryList = document.getElementById('pantry-list');
 var mealsList = document.getElementById('meals-list');
+
+// Food desert GeoJson layer
+var foodDesertsLayer = L.geoJSON(foodDesertsGeoJSON, {
+  style: function(feature) {
+    return {
+      color: 'red'
+    };
+  },
+  onEachFeature: function (feature, layer) {
+    layer.bindPopup(feature.properties.NAME);
+  }
+});
+
+// Create a Layer Control and add GeoJson to the map
+var overlayLayers = {
+  "Food Deserts with Limited Vehicle Access": foodDesertsLayer
+};
+L.control.layers(null, overlayLayers).addTo(map);
+
 
 var selectedMarker = null;
 

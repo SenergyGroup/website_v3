@@ -1,3 +1,21 @@
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 50px; /* This gives the pill shape */
+    background-color: #f8f9fa;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; /* To remove the default border of buttons */
+    outline: none; /* To remove the default outline of buttons */
+}
+
+.nav-button:hover {
+    background-color: #2196F3;
+    color: #f8f9fa;
+}
+
 .nav-item {
     display: inline-block;
     padding: 10px 20px;
@@ -18,21 +36,33 @@
     margin-right: 5px;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .map-container {
-  overflow: auto; /* This will clear the float */
+  display: flex;
 }
 
 #map {
-   width: 75%;
-   height: 600px;
-   float: left;
+  width: 65%;
+  height: 600px;
 }
 
 #marker-list {
-   width: 75%;
-   height: 600px;
-   float: left;
-   overflow-y: auto; /* Allow scrolling if the list is long */
+  width: 35%;
+  height: 500px;
+  overflow-y: auto;
+}
+
+@media (max-width: 1000px) {
+  #map,
+  #marker-list {
+    width: 100%;
+    height: 350px;
+  }
 }
 
 .card {
@@ -40,34 +70,32 @@
   margin: 5px;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .card:hover {
-   background-color: #f0f0f0;
-}
+  background-color: #f0f0f0; }
+
 .leaflet-popup-content {
-    line-height: 1.5;
-}
+  line-height: 1.5; }
+
 .leaflet-marker-icon {
-    background-color: transparent !important;
-    border: none !important;
-}
+  background-color: transparent !important;
+  border: none !important; }
+
 .leaflet-div-icon i {
-    font-size: 20px;
-}
+  font-size: 20px; }
+
 .pantry-icon {
-    color: green;
-}
+  color: green; }
+
 .meal-icon {
-    color: orange;
-}
+  color: orange; }
+
 .hover-highlight {
-    color: yellow !important;
-}
+  color: yellow !important; }
+
 .selected-highlight {
-    color: red !important;
-}
+  color: red !important; }
 
 
 .container, .text-container {
@@ -81,7 +109,7 @@
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 1350px;
 
 	&.max-container {
 		max-width: 100%;
@@ -227,4 +255,89 @@ blockquote .quote:after {
 .thirds div {
 	flex: 1 1 200px;
 	padding: 100px 40px 0 40px;
+}
+
+.leaflet-control-layers-expanded {
+  width: 200px; /* Set the width to your desired size */
+  height: 75px; /* You can also set a specific height if needed */
+  max-height: 75px; /* This can control how tall the control can get, with overflow-y set to auto or scroll */
+  overflow-y: hidden; /* This can make the control scrollable if it gets too tall */
+}
+
+.leaflet-control-layers-expanded .leaflet-control-layers-overlays + span {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.leaflet-control-layers-expanded .leaflet-control-layers-selector,
+.leaflet-control-layers-expanded .leaflet-control-layers-selector + span {
+  font-size: 12px; /* Set to your desired font size */
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin: 0;
+  line-height: 1;
+  overflow: hidden;
+}
+
+
+.signposts {
+    padding: 4px 6px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+	pointer-events: none;
+}
+
+.hideSignpost {
+display: none;
+}
+
+/* Styles the direction arrows */
+.signposts svg {
+color: #404040;
+max-width: 14px;
+max-height: 14px;
+vertical-align: top;
+position: relative;
+top: 1px;
+margin-right: 3px;
+width: 14px;
+}
+
+/* The CSS below determines the locations of the new placeholders for controls */
+/* Leaflet assigns classes to determine location eg. ".leaflet-bottom .leaflet-right" */
+/* The addControlPlaceholders function creates new locations, referred to by these new classes */
+
+.leaflet-y25, .leaflet-y75, .leaflet-x25, .leaflet-x75, .leaflet-bottomAdj {
+    position: absolute;
+	z-index: 400;
+    pointer-events: none;
+}
+
+.leaflet-y25 {
+	top: 25%;
+    transform: translateY(-50%);
+	}
+	
+.leaflet-y75 {
+	top: 75%;
+    transform: translateY(-50%);
+		}
+		
+.leaflet-x25 {
+	left: 25%;
+    transform: translateX(-50%);
+		}
+		
+.leaflet-x75 {
+	left: 75%;
+    transform: translateX(-50%);
+		}
+
+.leaflet-bottomAdj {
+	bottom: 10px; /* Used to prevent overlap with Leaflet attribution text */
+	transform: translateY(-50%);
 }

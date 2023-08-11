@@ -2,15 +2,13 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-        <div class="container ">
+        <div class="container">
             <table id="nav-table">
                 <tr>
                     <td class="nav-item" data-target="#home"><i class="fas fa-home"></i> Home</td>
-                    <td class="nav-item" data-target="#help"><i class="fas fa-question-circle"></i> Help</td>
                     <td class="nav-item" data-target="#strategy"><i class="fas fa-chess"></i> Strategy</td>
                     <td class="nav-item" data-target="#data"><i class="fas fa-chart-bar"></i> Data</td>
                     <td class="nav-item" data-target="#funding"><i class="fas fa-dollar-sign"></i> Funding</td>
-                    <td class="nav-item" data-target="#location"><i class="fas fa-map-marker-alt"></i> Location</td>
                     <td class="nav-item" data-target="#docs"><i class="fas fa-file-alt"></i> Docs</td>
                     <td class="nav-item" data-target="#members"><i class="fas fa-users"></i> Members</td>
                     <td class="nav-item" data-target="#performance"><i class="fas fa-chart-line"></i> Performance</td>
@@ -22,22 +20,28 @@
         <div id="content">
                 <div class="content-item" id="home">
                   <h3>Home content...</h3></div>
-                <div class="content-item" id="help">
-                  <h3>Help content...</h3></div>
                 <div class="content-item" id="strategy">
                   <h3>Strategy</h3>
-                  <p>Reducing the prevalence of food deserts in Black Hawk County by promoting access to healthy, affordable food options, and advocating for changes in food policies.</p></div>
+                  <h3>Black Hawk County's Goals for Addressing Food Insecurity</h3>
+                  <p>In our community, food security is a shared mission. Here's what Black Hawk County has established as goals and objectives to fight food insecurity, and how we are contributing to these efforts. For a deeper understanding of the plan and its details, you can click <a href="https://assets-global.website-files.com/6026e5c73e800440fd7b119f/63cb062206d59a04c02f2cf1_1-Page%20Summary%202022%20CHA%20%26%20FY23-25%20CHIP.pdf">here</a> for the full report.</p>
+                  <h3>Goal</h3>
+                  <p>Increase equitable access to healthy foods to improve the health of Black Hawk County community members.</p>
+                  <h3>Objectives</h3>
+                  <p>Maintain Double Up Food Bucks: By 2025, the goal is to maintain the 2022 level redeemed in Black Hawk County (2022 baseline = $80,645).</p>
+                  <p>Reduce Food Insecurity Rate: By 2025, the target is to reduce the rate for the BHC population to 9% (2020 baseline = 9.8%) and to 15.8% for Black Hawk County children under age 18 (2020 baseline = 16.8%).</p>
+                  <h3>Our Contribution</h3>
+                  <p>Coalition Building & Gap Analysis: We are working to "collaborate with ongoing healthy food access coalitions to document existing programs and resources." Our efforts include understanding the landscape and identifying opportunities for collaboration and improvement.</p>
+                  <p>These strategies align with Black Hawk County's commitment to community health, and we're proud to be a part of this mission. Together, we're making strides toward a thriving community.</p>
+                </div>
                 <div class="content-item" id="data">
                   <h3>Data</h3>
-
-                    <div class = "map-container">
+                    <div class = "map-container clearfix">
                       <div id="map"></div>
                       <div id="marker-list">
                         <h3 id="pantry-header">Pantries</h3>
                         <div id="pantry-list"></div>
                         <h3 id="meals-header">Community Meals</h3>
-                        <div id="meals-list"></div>
-                      </div>
+                        <div id="meals-list"></div></div>
                     </div>
                     <div id="filter" style="margin-top: 50px;">
                       <label for="date">Select a Day:</label>
@@ -54,21 +58,32 @@
                       <!--<label for="time">Select Time:</label>
                       <input type="time" id="time" name="time">
                       -->
-                      <button onclick="filterMarkers()">Filter</button>
-                      <button onclick="clearFilter()" type="button">Clear</button>
+                      <button class="nav-button" onclick="filterMarkers()">Filter</button>
+                      <button class="nav-button" onclick="clearFilter()" type="button">Clear</button>
                     </div>
-                  
-                  <p>Number of individuals served through food drives and meal programs. </p>
-                  <p>Changes in local food policies that promote food equity.</p></div>
+                  <h3>Undertanding Our Community Through Data</h3>
+                  <p>At Senergy Group, Our commitment to a prosperous and united world drives us not only in the world of fashion but also in supporting essential community needs like nourishment and food access.
+            
+            This map above showcases the locations of community meals, pantries, and food deserts in our area. But what does it really tell us? It highlights the places where nourishment is available and where there might be gaps in coverage. But more than that, it's a living testament to our collective responsibility.</p>
+                  <h3>What the Data Shows</h3>
+                  <p><b>Community Meals</b>: Where individuals can come together for a meal.</p>
+                  <p><b>Pantries</b>: Locations providing food items to those in need.</p>
+                  <p><b>Food Deserts</b>: Areas where obtaining fresh, healthy food could be difficult, especially for those without access to a vehicle.</p>
+                  <h3>How You Can Get Involved</h3>
+                  <p>Your voice and perspective matter. Do you know of a place that should be on this map? Perhaps you've noticed an area that's underserved or a day when more support is needed?</p>
+                  <p><b>Report Changes</b>: Keep the map accurate by reporting closures, modifications, or additional sites.</p>
+                  <p><b>Volunteer Locally</b>: Join hands with the community by volunteering at your local food bank or with community partners listed on the map. Your time and effort can make a tangible difference.</p>
+                  <p><b>Engage with the Food Access Sub-committee</b>: The Cedar Valley Regional Food and Farm Network has a dedicated sub-committee working to ensure food access. Learn more and find ways to get involved by visiting their website <a href="https://cvfoodfarmnetwork.org/">here</a>.</p>
+                  <p><b>Share Your Thoughts</b>: What do you think? Share this map with friends and start a conversation about how we can all make a difference.</p>
+                  <h4>Your involvement makes this more than a map; it turns it into a movement. Join us.</h3>
+                </div></div>
                 <div class="content-item" id="funding">
-                  <h3>Funding</h3>
-                  <p>Use of funds for website maintenance, information dissemination and advocacy efforts.</p>
-                  <p>Use of funds for organizing food drives and securing food donations.</p>
-                  <p>Contributions from partnerships with community organizations and stakeholders.</p></div>
-                <div class="content-item" id="location">
-                  <h3>Location</h3>
-                  <p>Leaflet Map Areas of operation within Black Hawk County, specifically areas identified as food deserts.</p>
-                  <p>Locations of partner organizations like food banks, local churches, Salvation Army, Goodwill and governmental initiatives.</p></div>
+                  <h3>Funding Alignment</h3>
+                  <p>At Senergy Group, we recognize the power of collaboration and the impact that strategic investment can make in our community. While our efforts are rooted in business, our mission transcends commerce. Here's how we are leveraging our resources to foster community well-being:</p>
+                  <p><b>Promotion of Information</b>: We invest in raising awareness about critical community issues, such as food insecurity.</p>
+                  <p><b>Partnerships</b>: Our work in the community helps to build our brand, but it also fosters connections with local businesses, influencers, and organizations. We're not just seeking visibility; we're cultivating relationships that enable mutual growth.</p>
+                  <p><b>Aligning Goals</b>: We recognize the importance of a thriving community to our business success. Therefore, we ensure that our funding and partnerships align with both our business strategies and community needs. By doing so, our investments support our business and enhance the well-being of the place we call home.</p>
+                  </div>
                 <div class="content-item" id="docs">
                   <h3>Documentation</h3> 
                   <p>Documentation on the issue of food deserts and its impact on health and wellness.</p>
