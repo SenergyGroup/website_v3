@@ -31,7 +31,7 @@
   {{ $mapStyles := resources.Get "sass/leafletmap.scss" | resources.ToCSS }}
 
   
-  {{ if .Params.specialStyles }}
+  {{ if .Page.Params.specialStyles }}
     <link rel="stylesheet" href="{{ $leafletStyles.Permalink }}" type="text/css">
     <link rel="stylesheet" href="{{ $mapStyles.Permalink }}" type="text/css">
   {{ end }}
