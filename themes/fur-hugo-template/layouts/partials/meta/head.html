@@ -27,6 +27,15 @@
 
   <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
   
+  {{ $leafletStyles := resources.Get "sass/leaflet.signposts.scss" | resources.ToCSS }}
+  {{ $mapStyles := resources.Get "sass/leafletmap.scss" | resources.ToCSS }}
+
+  
+  {{ if .Params.specialStyles }}
+    <link rel="stylesheet" href="{{ $leafletStyles.Permalink }}" type="text/css">
+    <link rel="stylesheet" href="{{ $mapStyles.Permalink }}" type="text/css">
+  {{ end }}
+  
 	{{ with .Site.Params.snipcart_key }}
 		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ . }}"></script>
 	{{ end }}  
