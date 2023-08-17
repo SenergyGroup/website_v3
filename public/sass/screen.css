@@ -103,11 +103,6 @@ ul {
 .map-container {
   display: flex; }
 
-#map,
-#marker-list {
-  height: 600px;
-  float: left;
-}
 
 #map {
 <<<<<<< HEAD
