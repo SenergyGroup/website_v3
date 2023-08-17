@@ -47,3 +47,28 @@
 
 .selected-highlight {
   color: red !important; }
+
+.leaflet-control-layers-list {
+  padding: 0;
+  /* Remove padding around the entire list */ }
+
+.leaflet-control-layers-list label > div {
+  width: 150px;
+  display: flex;
+  /* Use flexbox layout */
+  align-items: center;
+  /* Vertically center the text with the checkbox */ }
+
+.leaflet-control-layers-list input[type="checkbox"] {
+  margin-right: 5px;
+  /* Add a little spacing between the checkbox and the text */ }
+
+.leaflet-control-layers-list span {
+  padding: 0;
+  /* Remove padding around the text */
+  margin: 0;
+  /* Remove margin around the text */
+  font-size: 12px;
+  /* Adjust the font size as needed */
+  line-height: 1;
+  /* Control the line height */ }
