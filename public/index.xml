@@ -5,26 +5,7 @@
     <link>https://www.senergygroup.org/</link>
     <description>Recent content in Nature, Technology, Art on Senergy Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.senergygroup.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blog Title</title>
-      <link>https://www.senergygroup.org/test-blog/post1/</link>
-      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.senergygroup.org/test-blog/post1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog Title</title>
-      <link>https://www.senergygroup.org/test-blog/post2/</link>
-      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.senergygroup.org/test-blog/post2/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://www.senergygroup.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.senergygroup.org/products/_defaults/</link>

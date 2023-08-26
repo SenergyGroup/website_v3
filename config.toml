@@ -24,8 +24,6 @@ links = [
 [_select_data]
 garment_type = ["hat", "top"]
 
-[permalinks]
-blog = "/action-groups/food-desert/blog/:filename/"
 
 [cloudcannon._options.type]
 hidden = true
