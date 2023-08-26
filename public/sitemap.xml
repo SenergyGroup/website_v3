@@ -2,46 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.senergygroup.org/categories/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://www.senergygroup.org/test-blog/post1/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.senergygroup.org/post/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://www.senergygroup.org/test-blog/post2/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.senergygroup.org/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.senergygroup.org/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.senergygroup.org/post/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.senergygroup.org/categories/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.senergygroup.org/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.senergygroup.org/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.senergygroup.org/tags/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://www.senergygroup.org/test-blog/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.senergygroup.org/products/_defaults/</loc>
-  </url><url>
-    <loc>https://www.senergygroup.org/action/</loc>
   </url><url>
     <loc>https://www.senergygroup.org/action-groups/</loc>
   </url><url>
     <loc>https://www.senergygroup.org/products/bamboo.forest/</loc>
   </url><url>
+    <loc>https://www.senergygroup.org/categories/</loc>
+  </url><url>
     <loc>https://www.senergygroup.org/contact/</loc>
   </url><url>
     <loc>https://www.senergygroup.org/products/flower.field/</loc>
-  </url><url>
-    <loc>https://www.senergygroup.org/action-groups/food-desert/</loc>
   </url><url>
     <loc>https://www.senergygroup.org/food/</loc>
   </url><url>
@@ -60,6 +43,8 @@
     <loc>https://www.senergygroup.org/returns/</loc>
   </url><url>
     <loc>https://www.senergygroup.org/shipping/</loc>
+  </url><url>
+    <loc>https://www.senergygroup.org/tags/</loc>
   </url><url>
     <loc>https://www.senergygroup.org/products/tibetan.plateau/</loc>
   </url><url>

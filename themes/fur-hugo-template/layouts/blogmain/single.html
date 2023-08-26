@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="product-container">
+
+    {{ $pages := where .Site.RegularPages "Type" "blog" }}
+    {{ range $pages.ByDate.Reverse }}
+        <div class="product-item">
+
+            <a href="{{ .RelPermalink }}">
+                {{ with .Params.thumbnail }}
+                <img src="{{ . }}" alt="{{ $.Title }}" class="product-image"/>
+                {{ end }}
+                
+                <h2 class="product-title">{{ .Title }}</h2>
+                <p class="product-subtitle">{{ .Params.subtitle }}</p>
+            </a>
+
+        </div> <!-- end of product-item -->
+    {{ end }}
+
+</div> <!-- end of product-container -->
+
+{{ end }}
