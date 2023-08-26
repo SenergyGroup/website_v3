@@ -4,7 +4,7 @@ title = "Senergy Group"
 googleAnalytics = ""
 enableRobotsTXT = true
 
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["term"]
 
 [params]
 snipcart_key = "MmM3NzNiYjMtYzU3MS00ZmY3LTkzYTEtYzJiYWE5ZmI4YTlhNjM4MjY0MjAwNTExNTgwMjMy"
@@ -23,6 +23,9 @@ links = [
 
 [_select_data]
 garment_type = ["hat", "top"]
+
+[permalinks]
+blog = "/action-groups/food-desert/blog/:filename/"
 
 [cloudcannon._options.type]
 hidden = true
