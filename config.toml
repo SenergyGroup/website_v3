@@ -44,3 +44,8 @@ description = "This is used for facebook shares of the page and google indexing"
 [cloudcannon.collections.products]
 _enabled_editors = ["data"]
 _icon = "shopping_cart"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
