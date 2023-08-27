@@ -1,0 +1,74 @@
+.map-container {
+  display: flex; }
+
+#map {
+  width: 65%;
+  height: 600px; }
+
+#marker-list {
+  width: 35%;
+  height: 600px;
+  overflow-y: auto; }
+
+@media (max-width: 1000px) {
+  #map,
+  #marker-list {
+    width: 100%;
+    height: 350px; } }
+
+.card {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer; }
+
+.card:hover {
+  background-color: #f0f0f0; }
+
+.leaflet-popup-content {
+  line-height: 1.5; }
+
+.leaflet-marker-icon {
+  background-color: transparent !important;
+  border: none !important; }
+
+.leaflet-div-icon i {
+  font-size: 20px; }
+
+.pantry-icon {
+  color: green; }
+
+.meal-icon {
+  color: orange; }
+
+.hover-highlight {
+  color: yellow !important; }
+
+.selected-highlight {
+  color: red !important; }
+
+.leaflet-control-layers-list {
+  padding: 0;
+  /* Remove padding around the entire list */ }
+
+.leaflet-control-layers-list label > div {
+  width: 150px;
+  display: flex;
+  /* Use flexbox layout */
+  align-items: center;
+  /* Vertically center the text with the checkbox */ }
+
+.leaflet-control-layers-list input[type="checkbox"] {
+  margin-right: 5px;
+  /* Add a little spacing between the checkbox and the text */ }
+
+.leaflet-control-layers-list span {
+  padding: 0;
+  /* Remove padding around the text */
+  margin: 0;
+  /* Remove margin around the text */
+  font-size: 12px;
+  /* Adjust the font size as needed */
+  line-height: 1;
+  /* Control the line height */ }

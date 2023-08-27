@@ -8,5 +8,5 @@ menu:
   main:
     weight: 115
 title: Action Groups
-type: action
+type: action-groups
 ---

@@ -1,35 +1,24 @@
 {{ define "main" }}
 
-<article>
+<article class="blog-post">
 
-    <header>
-        <h1>{{ .Title }}</h1>
+    <div class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
         <p class="subtitle">{{ .Params.subtitle }}</p>
 
         <div class="meta">
             <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-            <span class="author">{{ .Params.author }}</span>
         </div>
-    </header>
+    </div>
 
-    {{ .Content }}
-
-    <footer>
-        <div class="categories">
-            Categories:
-            {{ range .Params.categories }}
-            <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-        </div>
-
-        <div class="tags">
-            Tags:
-            {{ range .Params.tags }}
-            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-        </div>
-    </footer>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
 
 </article>
+
+<div class="nav-item" onclick="location.href='/action-groups/food-desert/blog';">
+    Return to Blog
+</div>
 
 {{ end }}

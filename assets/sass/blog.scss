@@ -1,0 +1,63 @@
+.blog-post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.post-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+}
+
+.meta {
+    font-style: italic;
+    color: #555;
+}
+
+.meta .date:before {
+    content: 'Posted on ';
+}
+
+.meta .author:before {
+    content: ' by ';
+}
+
+.post-content {
+    line-height: 1.6;
+}
+
+.post-footer {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.categories, .tags {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.category, .tag {
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.category:hover, .tag:hover {
+    background: #ccc;
+}

@@ -24,7 +24,6 @@ links = [
 [_select_data]
 garment_type = ["hat", "top"]
 
-
 [cloudcannon._options.type]
 hidden = true
 

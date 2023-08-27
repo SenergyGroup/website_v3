@@ -1,10 +1,10 @@
 {{ define "main" }}
 
 <div class="product-container">
+  <div id="groups" class="styles">
 
-    {{ $pages := where .Site.RegularPages "RelPermalink" "in" "/action-groups/food-desert/blog/" }}
-    <!-- Debug output: {{ printf "%#v" $pages }} -->
-    {{ range $pages.ByDate.Reverse }}
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+        {{ if strings.Contains .File.Dir "action-groups\\food-desert\\blog" }}
         <div class="product-item">
 
             <a href="{{ .RelPermalink }}">
@@ -12,13 +12,14 @@
                 <img src="{{ . }}" alt="{{ $.Title }}" class="product-image"/>
                 {{ end }}
                 
-                <h2 class="product-title">{{ .Title }}</h2>
+                <h3 class="product-title">{{ .Title }}</h2>
                 <p class="product-subtitle">{{ .Params.subtitle }}</p>
             </a>
 
         </div> <!-- end of product-item -->
+        {{ end }}
     {{ end }}
-
+  </div>
 </div> <!-- end of product-container -->
 
 {{ end }}
