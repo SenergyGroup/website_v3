@@ -30,6 +30,10 @@
     content: 'Posted on ';
 }
 
+.meta .dateu:before {
+    content: 'Last updated on ';
+}
+
 .meta .author:before {
     content: ' by ';
 }
