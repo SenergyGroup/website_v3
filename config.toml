@@ -2,7 +2,7 @@ baseURL = "https://www.senergygroup.org/"
 languageCode = "en-us"
 title = "Senergy Group"
 googleAnalytics = ""
-enableRobotsTXT = true
+#enableRobotsTXT = true
 
 disableKinds = ["term"]
 
