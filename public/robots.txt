@@ -1,1 +1,6 @@
 User-agent: *
+Disallow:
+
+# Contact us for data
+# If you are looking to access data from our website,
+# please contact us at contact.senergy.group@gmail.com
