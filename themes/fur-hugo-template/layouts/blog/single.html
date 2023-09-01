@@ -17,8 +17,17 @@
 
 </article>
 
-<div class="nav-item" onclick="location.href='/action-groups/food-desert/blog';">
-    Return to Blog
+<div class="nav-buttons">
+    <div class="nav-back" onclick="location.href='/action-groups/food-desert/blog';">
+        Return to Blog
+    </div>
+    {{ $current := . }}
+    {{ $next := .NextInSection }}
+    {{ if $next }}
+        <div class="nav-next" onclick="location.href='{{ $next.Permalink }}';">
+            Next Post
+        </div>
+    {{ end }}
 </div>
 
 {{ end }}

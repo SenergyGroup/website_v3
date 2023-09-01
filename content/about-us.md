@@ -1,7 +1,4 @@
 ---
-_enabled_editors:
-- visual
-- content
 hero: Our story
 menu:
   main:

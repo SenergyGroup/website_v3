@@ -1,25 +1,30 @@
 {{ define "main" }}
 
-<div class="product-container">
-  <div id="groups" class="styles">
-
-    {{ range .Site.RegularPages.ByDate.Reverse }}
+<ul class="blog-post-list">
+    {{ range .Site.RegularPages.ByDate }}
         {{ if strings.Contains .File.Dir "action-groups\\food-desert\\blog" }}
-        <div class="product-item">
-
-            <a href="{{ .RelPermalink }}">
-                {{ with .Params.thumbnail }}
-                <img src="{{ . }}" alt="{{ $.Title }}" class="product-image"/>
-                {{ end }}
-                
-                <h3 class="product-title">{{ .Title }}</h3>
-                <p class="product-subtitle">{{ .Params.subtitle }}</p>
-            </a>
-
-        </div> <!-- end of product-item -->
+            <li class="blog-post">
+                <a href="{{ .Permalink | relURL }}" class="blog-post-link">
+                    <div class="blog-post-details">
+                        <h4>{{ .Title }}</h4>
+                        <div class="blog-post-description">
+                            {{ .Params.subtitle | markdownify | truncate 45 }}
+                        </div>
+                        {{ if .Params.thumbnail }}
+                        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="blog-post-image"/>
+                        {{ end }}
+                    </div>
+                </a>
+            </li>
         {{ end }}
     {{ end }}
-  </div>
-</div> <!-- end of product-container -->
+</ul>
 
 {{ end }}
+
+
+
+
+
+
+

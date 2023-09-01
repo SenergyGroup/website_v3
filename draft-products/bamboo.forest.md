@@ -6,7 +6,7 @@ description_markdown: |-
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type: null
 name: Bamboo Forest
-price: "24.00"
+price: "22.00"
 sizes:
 - Small
 - Medium
