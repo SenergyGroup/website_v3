@@ -252,8 +252,6 @@ blockquote .quote:after {
       margin: 0 5px 0 0;
       border-radius: 20px;
       cursor: pointer; }
-  .styles > div + div {
-    display: none; }
   .styles i {
     font-size: 14rem;
     color: #fff; }
@@ -706,6 +704,52 @@ footer {
 .cms-editor-active nav .editor-link {
   display: inline !important; }
 
+.blog-post-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  list-style: none;
+  padding: 0; }
+
+.blog-post-list > .blog-post {
+  flex: 1 1 300px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  /* light grey border */
+  padding: 20px;
+  border-radius: 10px;
+  /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* shadow effect */
+  background-color: #fff;
+  /* white background */ }
+
+.blog-post-list > .blog-post a.blog-post-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+.blog-post-details h4 {
+  color: #4CAF50;
+  margin: 10px 0; }
+
+.blog-post-details .blog-post-description {
+  font-size: 1.1rem;
+  margin: 10px 0; }
+
+.blog-post-details img.blog-post-image {
+  width: 100%;
+  /* adjust as needed */
+  height: auto;
+  border-bottom: 2px solid #ddd;
+  /* border between image and text */
+  border-radius: 10px 10px 0 0;
+  /* rounded corners on top of image */
+  margin-bottom: 10px;
+  /* space between image and text */ }
+
 .blog-post {
   border: 1px solid #ddd;
   padding: 20px;
@@ -719,6 +763,7 @@ footer {
   padding-bottom: 10px; }
 
 .post-title {
+  color: #2196F3;
   font-size: 2.5em;
   margin-bottom: 10px; }
 
@@ -741,6 +786,10 @@ footer {
 .post-content {
   line-height: 1.6; }
 
+.blog-post h3 {
+  color: #4CAF50;
+  margin: 10px 0; }
+
 .post-footer {
   border-top: 1px solid #ddd;
   padding-top: 10px;
@@ -760,3 +809,40 @@ footer {
 
 .category:hover, .tag:hover {
   background: #ccc; }
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.nav-back, .nav-next {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 50px;
+  /* This gives the pill shape */
+  background-color: #f8f9fa;
+  color: #343a40;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  /* To remove the default border of buttons */
+  outline: none;
+  /* To remove the default outline of buttons */ }
+
+.nav-back:hover, .nav-next:hover {
+  background-color: #2196F3;
+  color: #f8f9fa; }
+
+.nav-next i {
+  margin-right: 5px; }
+
+.nav-next a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.nav-next a:hover {
+  color: #f8f9fa; }

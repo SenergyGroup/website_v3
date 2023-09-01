@@ -13,6 +13,7 @@
 }
 
 .post-title {
+    color: $brand-color-2;
     font-size: 2.5em;
     margin-bottom: 10px;
 }
@@ -42,6 +43,11 @@
     line-height: 1.6;
 }
 
+.blog-post h3 {
+    color: $brand-color;
+    margin: 10px 0;
+}
+
 .post-footer {
     border-top: 1px solid #ddd;
     padding-top: 10px;
@@ -64,4 +70,44 @@
 
 .category:hover, .tag:hover {
     background: #ccc;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-back, .nav-next {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 50px; /* This gives the pill shape */
+    background-color: #f8f9fa;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; /* To remove the default border of buttons */
+    outline: none; /* To remove the default outline of buttons */
+}
+
+.nav-back:hover, .nav-next:hover {
+    background-color: #2196F3;
+    color: #f8f9fa;
+}
+
+.nav-next i {
+    margin-right: 5px;
+}
+
+.nav-next a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-next a:hover {
+    color: #f8f9fa;
 }

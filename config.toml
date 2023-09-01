@@ -10,7 +10,7 @@ disableKinds = ["term"]
 snipcart_key = "MmM3NzNiYjMtYzU3MS00ZmY3LTkzYTEtYzJiYWE5ZmI4YTlhNjM4MjY0MjAwNTExNTgwMjMy"
 
 [params.author]
-name = "Aaron"
+name = "Senergy Group"
 email = "contact.senergy.group@gmail.com"
 twitter = "fur" # twitter username without the @ symbol
 phone = ""
