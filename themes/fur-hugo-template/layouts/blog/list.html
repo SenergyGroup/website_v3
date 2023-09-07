@@ -2,7 +2,7 @@
 
 <ul class="blog-post-list">
     {{ range .Site.RegularPages.ByDate }}
-        {{ if strings.Contains .File.Dir "action-groups\\food-desert\\blog" }}
+        {{ if strings.Contains .File.Dir "blog\\food-insecurity" }}
             <li class="blog-post">
                 <a href="{{ .Permalink | relURL }}" class="blog-post-link">
                     <div class="blog-post-details">

@@ -1,9 +1,9 @@
 ---
 description: Groups taking action on environmental equity.
-hero: Action Groups
+hero: Blog
 menu:
   main:
     weight: 115
-title: Action Groups
+title: Blog
 type: action-groups
 ---
