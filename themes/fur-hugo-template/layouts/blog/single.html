@@ -30,4 +30,13 @@
     {{ end }}
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const currentUrl = window.location.href;
+        document.querySelectorAll('a[target="_blank"]').forEach(link => {
+            link.href = link.href.replace('YOUR_POST_LINK', encodeURIComponent(currentUrl));
+        });
+    });
+</script>
+
 {{ end }}

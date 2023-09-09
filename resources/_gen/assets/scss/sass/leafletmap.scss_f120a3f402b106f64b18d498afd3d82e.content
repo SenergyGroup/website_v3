@@ -14,13 +14,27 @@
   #map,
   #marker-list {
     width: 100%;
-    height: 350px; } }
+    height: 350px; }
+  /* Additional styles for map container on mobile */
+  .map-container {
+    flex-direction: column; } }
+
+#pantry-header, #meals-header {
+  position: -webkit-sticky;
+  /* for Safari */
+  position: sticky;
+  top: 0;
+  /* You can adjust this value as needed */
+  z-index: 10;
+  /* to ensure the header stays above other content */
+  background-color: #f9f9f9;
+  /* To ensure the text doesn't overlap while scrolling */ }
 
 .card {
   padding: 10px;
   margin: 5px;
   border: 1px solid #ddd;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   cursor: pointer; }
 
 .card:hover {

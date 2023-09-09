@@ -111,3 +111,54 @@
 .nav-next a:hover {
     color: #f8f9fa;
 }
+
+.share-btn {
+    display: inline-block;
+    margin-right: 15px;
+    width: 40px; // or size of your logo
+    height: 40px;
+    background-color: #FFFFFF; // background of your logos if needed
+    border-radius: 4px;
+    transition: opacity 0.3s;
+    
+    &.facebook {
+        background-image: url('/images/social-icons/facebook-logo.svg');
+    }
+    
+    &.twitter {
+        background-image: url('/images/social-icons/twitter-logo.svg');
+    }
+    
+    &.pinterest {
+        background-image: url('/images/social-icons/pinterest-logo.svg');
+    }
+    
+    &.linkedin {
+        background-image: url('/images/social-icons/linkedin-logo.svg');
+    }
+    
+    &.reddit {
+    background-image: url('/images/social-icons/reddit-logo.svg');
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.sticky-cta {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50; // Tech Green
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    z-index: 1000; // Ensure it stays above other elements
+    cursor: pointer;
+    transition: all 0.3s; // smooth hover effect
+
+    &:hover {
+        background-color: darken(#4CAF50, 10%); // slightly darker on hover
+    }
+}

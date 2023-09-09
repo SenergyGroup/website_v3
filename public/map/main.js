@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 // Function to create icon
 function createIcon(type) {
-    var iconClass = type === 'Pantry' ? 'fa-utensils pantry-icon' : 'fa-hamburger meal-icon';
+    var iconClass = type === 'Pantry' ? 'fa-shopping-basket pantry-icon' : 'fa-utensils meal-icon';
     return L.divIcon({
         className: 'leaflet-div-icon',
         html: '<div style="background-color: white; border: 5px solid black; padding: 3px; display: inline-block;"><i class="fas ' + iconClass + '"></i></div>',
@@ -46,10 +46,8 @@ function filterMarkers() {
 
 function clearFilter() {
     document.getElementById('day').value = '';
-    //document.getElementById('time').value = '';
 
     allMarkers.forEach(function(item) {
-        console.log("Item's date:", item.date);
         item.marker.addTo(map);
         item.card.style.display = 'block';
     });
@@ -60,27 +58,13 @@ function clearFilter() {
 // function isOpen(day, time, date) {
 function isOpen(day, date) {
     if (!date.toLowerCase().includes(day.toLowerCase())) return false;
-    
-    /*Time logic
-    if (time !== null && time !== '') {
-        const [startHour, startMinute] = entry.startTime.split(':').map(Number);
-        const [endHour, endMinute] = entry.endTime.split(':').map(Number);
-        const [inputHour, inputMinute] = time.split(':').map(Number);
-
-        const startInMinutes = startHour * 60 + startMinute;
-        const endInMinutes = endHour * 60 + endMinute;
-        const inputInMinutes = inputHour * 60 + inputMinute;
-
-        return inputInMinutes >= startInMinutes && inputInMinutes <= endInMinutes;
-    }
-    */
 
     return true; // If no time specified, return all entries for the given day
 }
 
 // Function to create icon with highlight
 function createIconWithHighlight(type) {
-    var iconClass = type === 'Pantry' ? 'fa-utensils pantry-icon selected-highlight' : 'fa-hamburger meal-icon selected-highlight';
+    var iconClass = type === 'Pantry' ? 'fa-shopping-basket pantry-icon selected-highlight' : 'fa-utensils meal-icon selected-highlight';
     return L.divIcon({
         className: 'leaflet-div-icon',
         html: '<i class="fas ' + iconClass + '"></i>',
@@ -95,24 +79,6 @@ var allMarkers = [];
 // Creating a list for the map markers
 var pantryList = document.getElementById('pantry-list');
 var mealsList = document.getElementById('meals-list');
-
-// Food desert GeoJson layer
-var foodDesertsLayer = L.geoJSON(foodDesertsGeoJSON, {
-  style: function(feature) {
-    return {
-      color: 'red'
-    };
-  },
-  onEachFeature: function (feature, layer) {
-    layer.bindPopup(feature.properties.NAME);
-  }
-});
-
-// Create a Layer Control and add GeoJson to the map
-var overlayLayers = {
-  "Food Deserts with Limited Vehicle Access": foodDesertsLayer
-};
-L.control.layers(null, overlayLayers).addTo(map);
 
 
 var selectedMarker = null;

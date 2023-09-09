@@ -6,7 +6,7 @@ description_markdown: |-
   Regular Fit, 4.3oz 100% Cotton T-Shirt.
 garment_type: null
 name: Midnight Desert
-price: "22.00"
+price: "24.00"
 sizes:
 - XS
 - Small

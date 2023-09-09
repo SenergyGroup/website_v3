@@ -846,3 +846,38 @@ footer {
 
 .nav-next a:hover {
   color: #f8f9fa; }
+
+.share-btn {
+  display: inline-block;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  transition: opacity 0.3s; }
+  .share-btn.facebook {
+    background-image: url("/images/social-icons/facebook-logo.svg"); }
+  .share-btn.twitter {
+    background-image: url("/images/social-icons/twitter-logo.svg"); }
+  .share-btn.pinterest {
+    background-image: url("/images/social-icons/pinterest-logo.svg"); }
+  .share-btn.linkedin {
+    background-image: url("/images/social-icons/linkedin-logo.svg"); }
+  .share-btn.reddit {
+    background-image: url("/images/social-icons/reddit-logo.svg"); }
+  .share-btn:hover {
+    opacity: 0.8; }
+
+.sticky-cta {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 4px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.3s; }
+  .sticky-cta:hover {
+    background-color: #3d8b40; }
