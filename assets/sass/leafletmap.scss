@@ -21,6 +21,20 @@ $metallic-gold: #FFD700;
   height: 600px;
   overflow-y: auto;
   background-color: $white;
+
+  #pantry-header {
+    color: var(--tech-green);
+    i {
+      color: inherit;
+    }
+  }
+
+  #meals-header {
+    color: var(--metallic-gold);
+    i {
+      color: inherit;
+    }
+  }
 }
 
 @media (max-width: 1000px) {
