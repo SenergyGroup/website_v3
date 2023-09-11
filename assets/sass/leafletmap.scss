@@ -1,3 +1,11 @@
+// Brand Colors
+$tech-green: #4CAF50;
+$sky-blue: #2196F3;
+$white: #FFFFFF;
+$deep-gray: #424242;
+$soft-gray: #F5F5F5;
+$metallic-gold: #FFD700;
+
 .map-container {
   display: flex;
 }
@@ -5,12 +13,14 @@
 #map {
   width: 65%;
   height: 600px;
+  background-color: $soft-gray;
 }
 
 #marker-list {
   width: 35%;
   height: 600px;
   overflow-y: auto;
+  background-color: $white;
 }
 
 @media (max-width: 1000px) {
@@ -32,14 +42,14 @@
     position: sticky;
     top: 0;  /* You can adjust this value as needed */
     z-index: 10;  /* to ensure the header stays above other content */
-    background-color: #f9f9f9;  /* To ensure the text doesn't overlap while scrolling */
+    background-color: $soft-gray;  /* To ensure the text doesn't overlap while scrolling */
 }
 
 .card {
   padding: 10px;
   margin: 5px;
-  border: 1px solid #ddd;
-  background-color: #ffffff;
+  border: 1px solid $deep-gray;
+  background-color: $white;
   cursor: pointer; }
 
 .card:hover {
@@ -56,16 +66,16 @@
   font-size: 20px; }
 
 .pantry-icon {
-  color: green; }
+  color: $tech-green; }
 
 .meal-icon {
-  color: orange; }
+  color: $metallic-gold; }
 
 .hover-highlight {
-  color: yellow !important; }
+  color: $deep-gray !important; }
 
 .selected-highlight {
-  color: red !important; }
+  color: $sky-blue !important; }
   
 .leaflet-control-layers-list {
   padding: 0; /* Remove padding around the entire list */
