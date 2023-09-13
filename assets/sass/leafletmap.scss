@@ -23,14 +23,14 @@ $metallic-gold: #FFD700;
   background-color: $white;
 
   #pantry-header {
-    color: var(--tech-green);
+    color: $tech-green;
     i {
       color: inherit;
     }
   }
 
   #meals-header {
-    color: var(--metallic-gold);
+    color: $metallic-gold;
     i {
       color: inherit;
     }

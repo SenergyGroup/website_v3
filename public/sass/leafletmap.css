@@ -3,12 +3,22 @@
 
 #map {
   width: 65%;
-  height: 600px; }
+  height: 600px;
+  background-color: #F5F5F5; }
 
 #marker-list {
   width: 35%;
   height: 600px;
-  overflow-y: auto; }
+  overflow-y: auto;
+  background-color: #FFFFFF; }
+  #marker-list #pantry-header {
+    color: #4CAF50; }
+    #marker-list #pantry-header i {
+      color: inherit; }
+  #marker-list #meals-header {
+    color: #FFD700; }
+    #marker-list #meals-header i {
+      color: inherit; }
 
 @media (max-width: 1000px) {
   #map,
@@ -27,14 +37,14 @@
   /* You can adjust this value as needed */
   z-index: 10;
   /* to ensure the header stays above other content */
-  background-color: #f9f9f9;
+  background-color: #F5F5F5;
   /* To ensure the text doesn't overlap while scrolling */ }
 
 .card {
   padding: 10px;
   margin: 5px;
-  border: 1px solid #ddd;
-  background-color: #ffffff;
+  border: 1px solid #424242;
+  background-color: #FFFFFF;
   cursor: pointer; }
 
 .card:hover {
@@ -51,16 +61,16 @@
   font-size: 20px; }
 
 .pantry-icon {
-  color: green; }
+  color: #4CAF50; }
 
 .meal-icon {
-  color: orange; }
+  color: #FFD700; }
 
 .hover-highlight {
-  color: yellow !important; }
+  color: #424242 !important; }
 
 .selected-highlight {
-  color: red !important; }
+  color: #2196F3 !important; }
 
 .leaflet-control-layers-list {
   padding: 0;
