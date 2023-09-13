@@ -18,7 +18,16 @@
 </article>
 
 <div class="nav-buttons">
-    <div class="nav-back" onclick="location.href='/blog/food-insecurity';">
+    {{ $current := . }}
+    {{ $sections := split $current.RelPermalink "/" }}
+    {{ $backURL := "" }}
+
+    {{ if (eq (len $sections) 5) }}
+        {{ $backURL = print "/blog/" (index $sections 2) "/" }}
+    {{ else if (eq (len $sections) 4) }}
+        {{ $backURL = "/blog/" }}
+    {{ end }}
+    <div class="nav-back" onclick="location.href='{{ $backURL }}';">
         Return to Blog
     </div>
     {{ $current := . }}
