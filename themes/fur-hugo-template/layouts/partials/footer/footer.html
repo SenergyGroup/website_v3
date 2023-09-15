@@ -2,8 +2,11 @@
 	<div class="container">
 		<ul class="footer-columns">
 			<li class="about">
-				<div class="company-name">{{ readFile "themes/fur-hugo-template/static/logo.svg" | safeHTML }} <span>{{ .Site.Title }}</span></div>
-				<p class="editable">The intersection of Nature, Technology, and Art.</p>
+				<div class="company-name">
+            <img src="{{ "favicon.png" | absURL }}" alt="Company Logo">
+            <span>{{ .Site.Title }}</span>
+        </div>
+  				<p class="editable">The intersection of Nature, Technology, and Art.</p>
 			</li>
 
 			<li class="footer-nav">

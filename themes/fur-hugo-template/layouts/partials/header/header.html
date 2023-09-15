@@ -1,8 +1,11 @@
 <header>
 	<div class="container">
 		<div class="company-name">
-			<a href="{{ .Site.BaseURL }}/">{{ readFile "themes/fur-hugo-template/static/logo.svg" | safeHTML }} <span>{{ .Site.Title }}</span></a>
-		</div>
+        <a href="{{ .Site.BaseURL }}">
+            <img src="{{ "favicon.png" | absURL }}" alt="Company Logo">
+            <span>{{ .Site.Title }}</span>
+        </a>
+    </div>
 		{{ partial "header/nav" . }}
 	</div>
 
