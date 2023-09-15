@@ -1,9 +1,9 @@
 ---
 description_markdown: |-
-  The Midnight Desert t-shirt paints a poetic picture of nature's stark contrasts. It embraces the serenity and mystery of the desert, encouraging us to appreciate the quieter moments of the natural world.
+  Discover the enchantment of nature with our Midnight Desert graphic tee. Featuring a captivating moonlight silhouette, this t-shirt captures the desert’s tranquility at night. Made with premium quality, this 6.1oz 100% cotton tee ensures a comfortable relaxed fit. Available in classic shades of white, green, and black, it's an ode to the simpler moments in nature.
 
 
-  Regular Fit, 4.3oz 100% Cotton T-Shirt.
+  Relaxed Fit, 6.1oz 100% Cotton T-Shirt.
 garment_type: null
 name: Midnight Desert
 price: "24.00"
@@ -19,13 +19,13 @@ sku: desert
 stock: 10
 styles:
 - color: '#FFFFFF'
-  image: /images/products/desert/midnight.desert1.png
+  image: /images/products/desert/white.png
   name: White
 - color: '#000000'
-  image: /images/products/desert/midnight.desert2.png
+  image: /images/products/desert/black.png
   name: Black
 - color: '#4B5320'
-  image: /images/products/desert/midnight.desert.png
+  image: /images/products/desert/green.png
   name: Army Green
 title: Midnight Desert
 ---
