@@ -6,15 +6,13 @@ description_markdown: |-
   Relaxed Fit, 6.1oz 100% Cotton T-Shirt.
 garment_type: null
 name: Midnight Desert
-price: "24.00"
+price: "28.00"
 sizes:
-- XS
 - Small
 - Medium
 - Large
 - XL
 - 2XL
-- 3XL
 sku: desert
 stock: 10
 styles:
