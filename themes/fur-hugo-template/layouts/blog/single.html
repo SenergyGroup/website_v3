@@ -15,7 +15,18 @@
         {{ .Content }}
     </div>
 
+    <div>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener noreferrer" class="share-btn facebook"></a>
+      <a href="https://twitter.com/share?url={{ .Permalink }}&text=Check%20out%20this%20amazing%20post:" target="_blank" rel="noopener noreferrer" class="share-btn twitter"></a>
+      <a href="https://www.pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ with .Params.pinterest_image }}{{ . }}{{ end }}&description={{ with .Params.pinterest_description }}{{ . | urlize }}{{ end }}" target="_blank" rel="noopener noreferrer" class="share-btn pinterest"></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank" rel="noopener noreferrer" class="share-btn linkedin"></a>
+      <a href="https://reddit.com/submit?url={{ .Permalink }}&title={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="share-btn reddit"></a>
+    </div>
 </article>
+
+<div class="sticky-cta-container">
+    <a href="/" class="sticky-cta">Shop Now</a>
+</div>
 
 <div class="nav-buttons">
     {{ $current := . }}
