@@ -6,7 +6,8 @@ description_markdown: |-
   Relaxed Fit, 6.1oz 100% Cotton T-Shirt.
 garment_type: null
 name: Midnight Desert
-price: "28.00"
+price: "30.00"
+link: "https://senergygroup.etsy.com/listing/1552612862/midnight-desert-graphic-tee-moonlight"
 sizes:
 - Small
 - Medium
@@ -25,5 +26,6 @@ styles:
 - color: '#4B5320'
   image: /images/products/desert/green.png
   name: Army Green
-title: Midnight Desert
+title: 3. Midnight Desert
 ---
+

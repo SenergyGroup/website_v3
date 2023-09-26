@@ -6,7 +6,8 @@ description_markdown: |-
   Relaxed Fit, 6.1oz 100% Cotton T-Shirt.
 garment_type: null
 name: Monarch Migration
-price: "28.00"
+price: "32.00"
+link: "https://senergygroup.etsy.com/listing/1566800899/monarch-butterfly-art-nature-chic-cumin"
 sizes:
 - Small
 - Medium
@@ -31,5 +32,5 @@ styles:
 - color: '#FFFFFF'
   image: /images/products/monarch/white.png
   name: White
-title: Monarch Migration
+title: 1. Monarch Migration
 ---
