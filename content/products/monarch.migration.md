@@ -20,9 +20,6 @@ styles:
 - color: '#9e5d57'
   image: /images/products/monarch/red.png
   name: Cumin
-- color: '#f7b962'
-  image: /images/products/monarch/yellow.png
-  name: Citrus
 - color: '#899989'
   image: /images/products/monarch/green.png
   name: Bay
