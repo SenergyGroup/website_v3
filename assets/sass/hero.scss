@@ -1,0 +1,62 @@
+.hero-section {
+  max-width: 1350px;
+  margin: 0 auto;
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: calc(1.5rem + 1.5vw);
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+    .left, .right {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em; // Adjust for space between words
+    }
+
+    .left {
+      margin-left: 5vw;
+      
+      & > span:first-child {
+        white-space: nowrap;
+      }
+    }
+
+    .right {
+      margin-right: 5vw;
+      color: $brand-color;
+      
+      & > span:last-child {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .cta-button {
+    background-color: $brand-color-2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 45%;
+
+    &:hover {
+      background-color: darken($brand-color-2, 10%);
+    }
+  }
+}

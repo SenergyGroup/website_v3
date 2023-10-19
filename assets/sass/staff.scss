@@ -3,9 +3,9 @@
 	margin: 25px auto 0 auto;
 	background: no-repeat center center;
 	background-size: cover;
-	border-radius: 300px;
-	width: 70%;
-	padding-bottom: 70%;
+	border-radius: 20px;
+	width: 100%;
+	padding-bottom: 100%;
 }
 
 .staff {
@@ -18,7 +18,7 @@
 	justify-content: center;
 
 	li {
-		padding: 30px 20px;
+		padding: 20px 20px;
 		box-sizing: border-box;
 		flex: 0 1 300px;
 		background: #fff;
@@ -32,7 +32,7 @@
 		height: 400px;
 
 		img {
-			border-radius: 400px;
+			border-radius: 200px;
 		}
 	}
 

@@ -29,5 +29,5 @@ styles:
 - color: '#5b1f3b'
   image: /images/products/mtsunrise/vineyard.png
   name: Vineyard
-title: 3. Mountain Sunrise
+title: 7. Mountain Sunrise
 ---

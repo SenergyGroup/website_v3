@@ -6,7 +6,7 @@
             <li class="blog-post">
                 <a href="{{ .Permalink | relURL }}" class="blog-post-link">
                     <div class="blog-post-details">
-                        <h4>{{ .Title }}</h4>
+                        <h6>{{ .Title }}</h6>
                         <div class="blog-post-description">
                             {{ .Params.subtitle | markdownify | truncate 45 }}
                         </div>

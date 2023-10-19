@@ -1,25 +1,29 @@
 {{ define "main" }}
-<p class="editor-link" style="text-align: center; position: relative;
-	top: -185px;"><a href="cloudcannon:collections/data/staff_members" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <ul class="staff">
 	{{ range .Site.Data.staff_members }}
 		<li>
-			<div class="staff-image" style="background-image: url({{ .image_path }})"></div>
+			<div class="staff-image" style="background-image: url('/siteicon3.png')"></div>
 			<div class="name">{{ .name }}</div>
 		</li>
 	{{ end }}
 </ul>
-
-<div class="thirds story-points">
-	<div>
-		<h3 class="editable">Our Story</h3>
-		<p>Senergy Group is more than just a brand — it's a movement. Founded on the belief that fashion can be a platform for meaningful change, our graphic t-shirts serve as both a canvas for creative expression and a vehicle for driving positive impact in our community.</p>
+<br>
+<p>Senergy Group is more than just a brand — it's a movement. Founded on the belief that fashion can be a platform for meaningful change, our graphic t-shirts serve as both a canvas for creative expression and a vehicle for driving positive impact in our community.</p>
 		<p>Each of our unique designs, handcrafted using AI, Photoshop, and traditional sketches, is printed on 100% cotton shirts sourced from ComfortColors, a US-based brand renowned for their distinctive style. While our long-term vision includes supplying our own eco-friendly apparel, we currently champion sustainability by choosing partners aligned with our ethos.</p>
 		<p>But what truly sets Senergy Group apart is our commitment to championing community causes, particularly addressing food insecurity. For every t-shirt purchased, a portion of the profit is allocated to support projects that delve deep into the issue. As we grow, so does our support for teams working tirelessly to bring light to and alleviate these challenges.</p>
 		<p>Guided by the <a href="https://assets-global.website-files.com/6026e5c73e800440fd7b119f/63cb062206d59a04c02f2cf1_1-Page%20Summary%202022%20CHA%20%26%20FY23-25%20CHIP.pdf">Community Health Improvement Plan</a> developed by the Black Hawk County Public Health department, we ensure our efforts echo the broader objectives of our community. We pour our passion and expertise in data analytics not only into the designs but also into blog posts that offer insights into our mission and work.</p>
 		<p>While we continue to grow our online presence, our focus remains steadfast. Our shirts, priced competitively, are not just pieces of clothing. They are symbols of a promise — a promise of equity, community growth, and unwavering dedication to change.</p>
 		<p>Your purchase and support mean more to us than just a transaction. It's a testament to your belief in our mission. And while we understand the challenges of running a small business, we stand by our commitment to ensure satisfaction. With open channels for <a href = "/contact/">feedback</a>, evolving ideas for loyalty programs, and continual updates via our <a href = "/blog/">blogs</a>, we invite you to join us on this journey towards a brighter and more equitable future.</p>
-	</div>
-</div>
 
 {{ end }}

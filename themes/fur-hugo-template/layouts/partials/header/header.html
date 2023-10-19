@@ -1,25 +1,43 @@
-<header>
-	<div class="container">
-		<div class="company-name">
+{{ if eq .Kind "home" }}
+  <header>
+    <div class="container">
+      <div class="company-name">
         <a href="{{ .Site.BaseURL }}">
-            <img src="{{ "favicon.png" | absURL }}" alt="Company Logo">
-            <span>{{ .Site.Title }}</span>
+          <img src="{{ "siteicon2.png" | absURL }}" alt="Company Logo">
         </a>
+      </div>
+      {{ partial "header/nav" . }}
     </div>
-		{{ partial "header/nav" . }}
-	</div>
-
-	<section class="hero">
-		<div class="text-container">
-			{{ if .Params.hero }}
-				<h2>{{ .Params.hero }}</h2>
-			{{ else if .Params.name }}
-				<h2>{{ .Params.name }}</h2>
-			{{ end }}
-
-			{{ if .Params.subtitle }}
-				<p>{{ .Params.subtitle }}</p>
-			{{ end }}
-		</div>
-	</section>
+    
+  <div class="hero-section">
+    <img src="/images/main/background.png" alt="Model in Ethical Setting">
+    <br>
+    <!--<button class="cta-button">Shop Now</button>-->
+  </div>
 </header>
+{{ else }}
+  <header>
+    <div class="container">
+      <div class="company-name">
+        <a href="{{ .Site.BaseURL }}">
+          <img src="{{ "siteicon2.png" | absURL }}" alt="Company Logo">
+        </a>
+      </div>
+      {{ partial "header/nav" . }}
+    </div>
+
+    <section class="hero">
+      <div class="text-container">
+        {{ if .Params.hero }}
+          <h2>{{ .Params.hero }}</h2>
+        {{ else if .Params.name }}
+          <h2>{{ .Params.name }}</h2>
+        {{ end }}
+
+        {{ if .Params.subtitle }}
+          <p>{{ .Params.subtitle }}</p>
+        {{ end }}
+      </div>
+    </section>
+  </header>
+{{ end }}

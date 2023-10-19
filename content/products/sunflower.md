@@ -7,7 +7,7 @@ description_markdown: |-
 garment_type: null
 name: Sunflower
 price: "32.00"
-link: "https://senergygroup.etsy.com/listing/1554810266/100-cotton-casual-chic-sunflower-emblem"
+link: "https://senergygroup.etsy.com/listing/1554810266/"
 sizes:
 - Small
 - Medium
@@ -26,5 +26,5 @@ styles:
 - color: '#899989'
   image: /images/products/sunflower/bay.png
   name: bay
-title: 2. Sunflower
+title: 6. Sunflower
 ---

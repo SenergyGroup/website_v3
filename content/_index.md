@@ -2,11 +2,11 @@
 _enabled_editors:
 - visual
 - content
-hero: Support Our Action Groups
+hero: Shop for a Cause
 menu:
   main:
     name: Products
     weight: 110
-subtitle: Each shirt you buy helps our action groups move us toward a better world.
+subtitle: Each purchase helps combat food insecurity.
 title: Nature, Technology, Art
 ---

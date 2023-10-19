@@ -10,6 +10,11 @@
         {{ $style := . | resources.ToCSS }}
         <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
 	{{ end }}
+	
+	{{ with resources.Get "sass/popup.scss" }}
+      {{ $popupStyle := . | resources.ToCSS }}
+      <link rel="stylesheet" href="{{ $popupStyle.Permalink | relURL }}" type="text/css">
+  {{ end }}
 
 	{{ with "logo.ico" }}
       <link rel="icon" href="{{ . | absURL }}" type="image/x-icon"/>
@@ -35,12 +40,14 @@
     <link rel="stylesheet" href="{{ $leafletStyles.Permalink }}" type="text/css">
     <link rel="stylesheet" href="{{ $mapStyles.Permalink }}" type="text/css">
   {{ end }}
-  
+
+
+<!--  
 	{{ with .Site.Params.snipcart_key }}
 		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ . }}"></script>
 	{{ end }}  
 
-<!--
+
 	<link href="https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.css" rel="stylesheet" />
 
   <script>

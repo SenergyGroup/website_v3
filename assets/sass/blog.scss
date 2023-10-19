@@ -2,7 +2,7 @@
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
-    background: #f9f9f9;
+    background: #fff;
     margin-bottom: 20px;
 }
 
@@ -13,8 +13,9 @@
 }
 
 .post-title {
-    color: $brand-color-2;
-    font-size: 2.5em;
+    color: darken(#D8BFD8, 15%);
+    font-size: 2.3em;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -44,8 +45,9 @@
 }
 
 .blog-post h3 {
-    color: $brand-color;
+    color: darken(#D8BFD8, 15%);
     margin: 10px 0;
+    font-weight: 400;
 }
 
 .post-footer {
@@ -92,7 +94,7 @@
 }
 
 .nav-back:hover, .nav-next:hover {
-    background-color: #2196F3;
+    background-color: #D8BFD8;
     color: #f8f9fa;
 }
 
@@ -150,7 +152,7 @@
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background-color: #4CAF50; // Tech Green
+    background-color: #D8BFD8; // Tech Green
     color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 4px;
@@ -159,6 +161,6 @@
     transition: all 0.3s; // smooth hover effect
 
     &:hover {
-        background-color: darken(#4CAF50, 10%); // slightly darker on hover
+        background-color: darken(#D8BFD8, 10%); // slightly darker on hover
     }
 }

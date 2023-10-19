@@ -1,16 +1,38 @@
 {{ define "main" }}
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/content/products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
+<br>
+<p>Senergy Group is more than just a brand — it's a movement. What truly sets Senergy Group apart is our commitment to championing community causes, particularly addressing food insecurity. For every t-shirt purchased, a portion of the profit is allocated to support projects that delve deep into the issue.</p>
+<p>Your purchase and support mean more to us than just a transaction. It's a testament to your belief in our mission. We invite you to join us on this journey towards a brighter and more equitable future.</p>
+<br>
+<h5>Shop Now</h5>
+<br>
 <ul class="product-list">
 	{{ range where .Site.Pages "Section" "products" }}
 		{{ if .Params.name }}
 			<li>
-				{{ partial "product-styles" . }}
+				<div class="styles">
+					{{ $permalink := .Permalink | relURL }}
+					{{ $productLink := .Params.link }}
+					{{ range $index, $style := .Params.styles }}
+						<div class="style" data-item-id="{{ $index }}" {{ if ne $index 0 }} style="display: none" {{end}}>
+							<a href="{{ $permalink }}">
+								<img src="{{ .Site.BaseURL }}{{ $style.image }}" alt="{{ .Params.alt }}">
+							</a>
+							<a href="{{ $productLink }}" class="add-to-cart-btn snipcart-add-item">Buy on Etsy</a>
+						</div>
+					{{ end }}
+
+					<div class="style-picker">
+						{{ range $index, $style := .Params.styles }}
+							<div style="background-color: {{ $style.color }}" data-item-id="{{ $index }}"></div>
+						{{ end }}
+					</div>
+				</div>
 				<div class="product-details">
 					<h4><a href="{{ .Permalink | relURL }}">{{ .Params.name }}</a></h4>
 					<div class="product-description">
 						{{ .Params.description_markdown | markdownify | truncate 45}}
 					</div>
-					<p>${{ .Params.price }}</p>
+					<p class="price">${{ .Params.price }}</p>
 				</div>
 			</li>
 		{{ end }}

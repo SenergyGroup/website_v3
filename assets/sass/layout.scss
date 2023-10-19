@@ -82,7 +82,7 @@
 	h2 {
 		font-size: 3.2rem;
 		line-height: 1.5;
-		font-weight: bold;
+		//font-weight: bold;
 	}
 
 	@media (min-width: 500px) {
@@ -92,12 +92,12 @@
 	}
 
 	p {
-		color: #fff;
+		color: #ffffff;
 	}
 }
 
 .content {
-	background: #fff;
+	background: #ffffff;
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -136,7 +136,7 @@
 
 
 section {
-	padding: 100px 0;
+	padding: 0px 0;
 }
 
 section + section {

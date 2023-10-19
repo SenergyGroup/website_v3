@@ -1,5 +1,5 @@
 ---
-hero: Our story
+hero: Our Story
 menu:
   main:
     weight: 111

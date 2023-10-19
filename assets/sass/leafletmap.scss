@@ -5,6 +5,7 @@ $white: #FFFFFF;
 $deep-gray: #424242;
 $soft-gray: #F5F5F5;
 $metallic-gold: #FFD700;
+$muted-lavender: #D8BFD8;
 
 .map-container {
   display: flex;
@@ -86,7 +87,7 @@ $metallic-gold: #FFD700;
   color: $metallic-gold; }
 
 .hover-highlight {
-  color: $deep-gray !important; }
+  color: $muted-lavender !important; }
 
 .selected-highlight {
   color: $sky-blue !important; }

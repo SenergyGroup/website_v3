@@ -13,6 +13,11 @@
         
         <link rel="stylesheet" href="/sass/screen.css" type="text/css">
 	
+	
+	
+      
+      <link rel="stylesheet" href="/sass/popup.css" type="text/css">
+  
 
 	
       <link rel="icon" href="https://www.senergygroup.org/logo.ico" type="image/x-icon"/>
@@ -35,10 +40,7 @@
 
   
   
-  
-	
-		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MmM3NzNiYjMtYzU3MS00ZmY3LTkzYTEtYzJiYWE5ZmI4YTlhNjM4MjY0MjAwNTExNTgwMjMy"></script>
-	  
+
 
 
 
@@ -67,15 +69,15 @@
 </head>
 
 	<body>
-		<header>
-	<div class="container">
-		<div class="company-name">
+		
+  <header>
+    <div class="container">
+      <div class="company-name">
         <a href="https://www.senergygroup.org/">
-            <img src="https://www.senergygroup.org/favicon.png" alt="Company Logo">
-            <span>Senergy Group</span>
+          <img src="https://www.senergygroup.org/siteicon2.png" alt="Company Logo">
         </a>
-    </div>
-		<nav>
+      </div>
+      <nav>
 	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
 	
 		
@@ -109,18 +111,19 @@
 			<a href="/blog/" title="Blog page" class="" >Blog</a>
 		
 	
-	<a href="#" class="cart snipcart-checkout"><i class="material-icons">shopping_cart</i></a>
+	<a href="https://www.etsy.com/shop/SenergyGroup" class="cart snipcart-checkout">Etsy Store <i class="material-icons">shopping_cart</i></a>
 </nav>
-	</div>
+    </div>
 
-	<section class="hero">
-		<div class="text-container">
-			
+    <section class="hero">
+      <div class="text-container">
+        
 
-			
-		</div>
-	</section>
-</header>
+        
+      </div>
+    </section>
+  </header>
+
 
 		<div class="content" >
 			<section class="page">
@@ -137,7 +140,7 @@
 		<ul class="footer-columns">
 			<li class="about">
 				<div class="company-name">
-            <img src="https://www.senergygroup.org/favicon.png" alt="Company Logo">
+            <img src="https://www.senergygroup.org/siteicon2.png" alt="Company Logo">
             <span>Senergy Group</span>
         </div>
   				<p class="editable">The intersection of Nature, Technology, and Art.</p>
@@ -194,6 +197,73 @@
 			</li>
 		</ul>
 	</div>
+	
+	<div class="special-offer-popup">
+      <div class="popup-content">
+        <span class="popup-close-btn">&times;</span>
+          <h3>Snag the <span>Deal</span> Before It's Too Late!</h3>
+          <p>Claim Your Exclusive 15% Off & Be One of the First to Fight Food Insecurity Through Fashion</p>
+          <form action="https://formspree.io/f/xpzgklry" method="post">
+              <input type="email" placeholder="Your Email" required>
+              <div class="name-wrapper">
+                  <input class="first-name" type="text" placeholder="First Name" required>
+                  <input class="last-name" type="text" placeholder="Last Name" required>
+              </div>
+              <select name="primary-interest">
+                  <option value="" disabled selected>What interests you most about our site?</option>
+                  <option value="graphic-tshirts">Stylish Graphic Tees</option>
+                  <option value="blog-content">Empowering Blog Content</option>
+                  <option value="both">Both Fashion and the Blog</option>
+                  <option value="other">Just Browsing</option>
+              </select>
+              <button type="submit"><b>Lock In My 15% & Make a Difference!</b></button>
+          </form>
+      </div>
+  </div>
+  
+  <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let wasOnHomepage = window.location.pathname === '/';
+            let hasSubscribed = sessionStorage.getItem('hasSubscribed');
+            let popup = document.querySelector('.special-offer-popup');
+            let closeButton = document.querySelector('.popup-close-btn');
+            
+            function displayPopup() {
+                if (hasSubscribed !== 'true') {
+                    popup.style.display = 'block';
+                    popup.style.transition = 'opacity 0.5s ease-in-out';
+                    popup.style.opacity = '1';
+                }
+            }
+            
+            
+
+    
+            window.addEventListener('popstate', function() {
+                if (wasOnHomepage) {
+                    displayPopup();
+                    history.pushState(null, null, window.location.href);
+                }
+            });
+    
+            window.addEventListener('beforeunload', function() {
+                wasOnHomepage = window.location.pathname === '/';
+            });
+            
+            document.querySelector('form').addEventListener('submit', function() {
+                sessionStorage.setItem('hasSubscribed', 'true');
+            });
+
+            
+            closeButton.addEventListener('click', function() {
+                popup.style.opacity = '0';
+                setTimeout(() => {
+                    popup.style.display = 'none';
+                }, 500);
+            });
+        });
+    </script>
+
 </footer>
 
 		<script>

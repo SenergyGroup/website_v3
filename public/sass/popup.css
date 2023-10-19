@@ -1,0 +1,65 @@
+.name-wrapper {
+  display: flex;
+  justify-content: space-between; }
+  .name-wrapper .first-name,
+  .name-wrapper .last-name {
+    flex: 1;
+    margin-right: 10px; }
+    .name-wrapper .first-name:last-child,
+    .name-wrapper .last-name:last-child {
+      margin-right: 0; }
+
+.special-offer-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999; }
+  .special-offer-popup .popup-close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 24px; }
+  .special-offer-popup .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+    .special-offer-popup .popup-content h3 {
+      color: #b180b1;
+      margin-bottom: 20px;
+      text-align: center; }
+      .special-offer-popup .popup-content h3 span {
+        color: #ff9f6e; }
+    .special-offer-popup .popup-content p, .special-offer-popup .popup-content form {
+      margin-bottom: 20px; }
+    .special-offer-popup .popup-content input, .special-offer-popup .popup-content select, .special-offer-popup .popup-content button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      box-sizing: border-box; }
+    .special-offer-popup .popup-content button {
+      color: white;
+      border: none;
+      background-color: #D8BFD8;
+      font-weight: 400;
+      text-align: center;
+      width: 60%;
+      height: 50px;
+      margin-left: 20%;
+      margin-right: 15%;
+      border-radius: 5px;
+      cursor: pointer; }
+      .special-offer-popup .popup-content button:hover {
+        background-color: #b180b1; }

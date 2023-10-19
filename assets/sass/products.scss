@@ -1,6 +1,6 @@
 .styles {
 	width: 100%;
-	background: #eee;
+	background: lighten(#FFE4D4, 4%);
 	position: relative;
 	padding: 20px;
 	box-sizing: border-box;
@@ -67,8 +67,9 @@
 }
 
 .product-list {
-	display: flex;
-	flex-flow: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); // grid layout
+	gap: 20px;
 	margin: 0 -20px;
 
 	&, > li {
@@ -77,21 +78,58 @@
 	}
 
 	> li {
-		flex: 1 1 300px;
+		position: relative;
 
-		&:not(:empty) {
-			margin: 20px;
+		&:hover .quick-view, 
+		&:hover .add-to-cart-btn {
+			opacity: 1;
+			visibility: visible;
+		}
+		
+		img {
+			transition: transform 0.3s;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+		
+		.quick-view, 
+		.add-to-cart-btn {
+			position: absolute;
+			top: 85%;
+			left: 20%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 0.3s;
+			z-index: 1
+		}
+
+		.add-to-cart-btn {
+			background-color: $brand-color;
+			font-size: 1rem;
+			padding: 10px 15px;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+			color: #fff;
 		}
 	}
 
-	h4 {
-		margin: 10px 0 0 0;
-		padding-right: 100px;
+	h4, p {
+		margin-top: 10px;
 	}
 
-	p {
-		line-height: 1;
-		margin: 10px 0 0 0;
+	h4 a {
+		color: inherit;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	p.price {
+		color: darken($brand-color, 10%);
 	}
 
 	.product-description p {
@@ -113,8 +151,8 @@
 		margin-top: 10px;
 
 		&:hover {
-			background: #f5f5f5;
-			color: #000;
+			background: darken($brand-color, 10%);
+			color: white;
 		}
 	} 
 }
