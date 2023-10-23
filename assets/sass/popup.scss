@@ -86,5 +86,12 @@ $pastel-teal: #008080;
     				background-color: darken($brand-color-2, 20%);
     			}
         }
+        
+        .email-agreement {
+            font-size: 0.8rem;
+            color: gray;
+            text-align: center;
+            margin-top: 10px;
+        }
     }
 }
