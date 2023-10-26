@@ -5,7 +5,7 @@ description_markdown: |-
 
   Bella Canvas, Women Slim Fit Tee.
 garment_type: null
-name: Lets Stay Home
+name: Girl Dinner
 price: "24.00"
 link: "https://senergygroup.etsy.com/listing/1581254980"
 sizes:
