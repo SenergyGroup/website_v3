@@ -29,5 +29,5 @@ styles:
 - color: '#b65d60'
   image: /images/products/booknook/cumin.png
   name: Cumin
-title: 1. Book Nook
+title: 2. Book Nook
 ---
