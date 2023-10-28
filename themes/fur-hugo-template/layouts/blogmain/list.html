@@ -2,8 +2,7 @@
 
 <div class="product-container">
 
-    {{ $pages := where .Site.RegularPages "RelPermalink" "in" "/action-groups/food-desert/blog/" }}
-    <!-- Debug output: {{ printf "%#v" $pages }} -->
+    {{ $pages := where .Site.RegularPages "Type" "blog" }}
     {{ range $pages.ByDate.Reverse }}
         <div class="product-item">
 

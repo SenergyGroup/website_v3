@@ -879,6 +879,19 @@ footer {
   .share-btn:hover {
     opacity: 0.8; }
 
+figure {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+figure img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
+
 .sticky-cta {
   position: fixed;
   bottom: 10px;
