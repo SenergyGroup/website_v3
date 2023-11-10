@@ -25,7 +25,7 @@ In the vast realm of AI design, we will always prioritize a transparent process.
 
 ### The Journey of Persistence in AI Design
 
-Our experience with the stable diffusion v1.5 model serves as a testament to our persistent approach. While the model showcased potential, it often fell short of capturing the essence we envisioned. Think of it as researching artists and styles, trying to identify a particular emotion or theme. Our strategy involved curating a Low-Rank Adaptation (LORA) based on shirts and images that resonated with our envisioned designs. Iterative fine-tuning and precise engineering of our prompts led us to a point where one in a hundred designs resonated with our vision, and one in a thousand was exceptional. Sifting through these designs, making adjustments, and then transitioning to the final product has been a long journey.
+We learned a lot from working with our AI design tool. Even though it showed promise, it didn't always hit the mark for what we wanted to achieve. Through trial and error and careful tweaking, we finally got some designs that really felt like us. It took a lot of effort to go from those initial ideas to the finished products we have today.
 
 
 ### Empathy in the AI and Traditional Art Landscape
